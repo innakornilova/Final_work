@@ -18,7 +18,6 @@ for (int i = 0; i < firstArray.Length; i++)
     Console.WriteLine($"Ваша строка из слов:");
     for (int i = 0; i < firstArray.Length; i++)
     {
-        // if (firstArray[i] != " ") count++;
         Console.Write(firstArray[i] + ", ");
     }
 
@@ -46,4 +45,5 @@ void PrintArray(string[] newArray)
         Console.Write(newArray[i] + " ");
     }
 }
+
 
