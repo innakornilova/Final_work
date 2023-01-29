@@ -18,12 +18,12 @@ for (int i = 0; i < firstArray.Length; i++)
     Console.WriteLine($"Ваша строка из слов:");
     for (int i = 0; i < firstArray.Length; i++)
     {
-        if (firstArray[i] != " ") count++;
+        // if (firstArray[i] != " ") count++;
         Console.Write(firstArray[i] + ", ");
     }
 
     FillNewArray(firstArray, newArray);
-    Console.WriteLine("\nНовый массив: ");
+    Console.WriteLine("\nНовый массив из строк, длина которых меньше либо равна 3 символам: ");
     PrintArray(newArray);
 }
 
@@ -46,3 +46,4 @@ void PrintArray(string[] newArray)
         Console.Write(newArray[i] + " ");
     }
 }
+
